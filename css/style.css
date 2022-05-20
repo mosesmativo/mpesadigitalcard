@@ -215,6 +215,8 @@ h1 span, h2 span{
 .header-area.scrollheader.is-sticky {
     background: #FFF;
     box-shadow: 0 1px 0 0 rgb(0 0 0 / 4%);
+    top: 0;
+    left: 0;
 }
 .classy-nav-container {
 	background-color: transparent;
@@ -461,33 +463,44 @@ h1 span, h2 span{
     height: 230px;
     overflow: hidden;
 }
-.card{
-	overflow: hidden;
-    border: 0;
+.card {
+    overflow: hidden;
     border-radius: 10px;
-	background: transparent;
+    background: transparent;
+    padding: 0;
+    margin: 0 5px 30px;
+    border: 1px solid #B9B9B9;
 }
 .card-content {
     padding: 1rem 1rem 2rem;
-    border: 1px solid #B9B9B9;
+    border-top: 1px solid #B9B9B9;
     border-radius: 0 0 10px 10px;
     min-height: 150px;
+}
+.product_catergory{
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 17px;
+	letter-spacing: 0.4em;
+	text-align: left;
+	color:#626262;
 }
 .title h2{
 	font-weight: 800;
     color: #626262;
     line-height: 33px;
-	font-size: 26px;
+	font-size: 25px;
     text-transform: uppercase;
 	letter-spacing: 1px;
 }
 .price{
 	color: #BFBFBF
 }
-.price h2{
-    font-size: 22px;
-    margin: 5px 0 0;
+.price h2 {
+    font-size: 18px;
+    margin: 15px 0 0;
     letter-spacing: 1px;
+    color: #000;
 }
 .small-title {
     font-family: 'futuramedium';
