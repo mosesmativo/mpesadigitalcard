@@ -599,7 +599,7 @@ footer::before{
 	background-size: 1rem;
 }
 /* end of joycss */
-.bg-black{
+.bg-blacky{
 	background: #1B1B1B;
 }
 p{
@@ -617,8 +617,9 @@ p{
 }
 .app-store-holder .modal-body h2{
 	text-transform: uppercase;
-	margin-bottom: 1rem;
-	font-size: 40px;
+    font-size: 34px;
+    width: 80%;
+    margin: 0 auto 1rem;
 }
 .app-store-holder .modal-header{
 	padding: 15px 10px 0 0;
@@ -626,4 +627,24 @@ p{
 }
 .modal-header .btn-close{
 	outline: none !important;
+}
+.video-inside .video-btn{
+	top: 0 !important;
+	bottom: 0 !important;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.video-inside .video-holder:hover .video-btn{
+	color: #2CB349 !important;
+}
+.video-caption{
+    padding: 0 6rem;
+
+}
+.video-caption h2{
+	text-transform: uppercase;
+}
+.text-white .banner-content h1, .text-white .banner-content p,.text-white .scroll{
+	color: #fff;
 }
