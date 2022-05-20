@@ -34,7 +34,7 @@
                 <h1>The <span>World</span> is Ours with M-PESA Global Pay</h1>
                 <p>Introducing the M-PESA virtual card, taking transactions to a global audience. It’s digital money, in a modern world.
                 </p>
-                <button class="btn btn-green">Get the card</button>
+                <button class="btn btn-green" data-bs-toggle="modal" data-bs-target="#appstore">Get the card</button>
                 <span class="scroll">
                     <img src="./images/icons/scroll-down.png" alt="scroll mpesa card">
                     Scroll down
@@ -43,8 +43,7 @@
         </div>
     </div>
  </section>
-
- <section class="most-popular pt-5 pb-5 mt-5 mb-5">
+ <section class="most-popular pt-5 pb-5 mt-5">
      <div class="container">
          <div class="row">
              <div class="col-12 col-md-5 grey-title">
@@ -84,7 +83,7 @@
                     </div>
                 </div>
              </div>
-             <div class="col-12 steps-video mt-2">
+             <!-- <div class="col-12 steps-video mt-2">
                 <div class="video-holder">
                     <img src="./images/video.jpg" alt="video section">
                     <button class="btn video-btn">
@@ -94,7 +93,7 @@
                         Play Video
                     </button>
                 </div>
-             </div>
+             </div> -->
 
          </div>
      </div>
@@ -103,8 +102,8 @@
  <section class="popular bg-grey">
     <div class="container">
         <div class="row">
-            <div class="col-12 grey-title">
-                <h2>Most <span>POPUlar</span> items</h2>
+            <div class="col-12 col-md-7 grey-title">
+                <h2 class="text-uppercase">Get limited edition Merchandise from Eliud with the <span> GlobalPay!</span></h2>
             </div>
             <div class="col-12 popular-slider">
                 <div id="popular" class="popular-holder owl-carousel owl-theme">
@@ -113,15 +112,14 @@
                             <img src="./images/products/kimono.jpg" alt="kimono" />
                         </div>
                         <div class="card-content">
-                            <span class="small-title">APPAREL</span>
                             <div class="row">
-                                <div class="col-12 col-md-8 title">
+                                <div class="col-12 title">
                                     <h2>KIMONO SHIRT</h2>
                                 </div>
-                                <div class="col-12 col-md-4 price">
-                                    <h2>$50</h2>
+                                <div class="col-12 price">
+                                    <h2>KSH 5000</h2>
                                 </div>
-                                    <a href="javascript:void(0)" class="add-cart">Add to cart <span>></span></a>
+                                    <a href="javascript:void(0)" class="add-cart">Buy Now <span>></span></a>
                             </div>
                         </div>
                     </div>
@@ -130,15 +128,14 @@
                             <img src="./images/products/kipchoge-shoe.jpg" alt="kimono" />
                         </div>
                         <div class="card-content">
-                            <span class="small-title">APPAREL</span>
                             <div class="row">
-                                <div class="col-12 col-md-8 title">
+                                <div class="col-12 title">
                                     <h2>KIPCHOGE SHOES</h2>
                                 </div>
-                                <div class="col-12 col-md-4 price">
-                                    <h2>$70</h2>
+                                <div class="col-12 price">
+                                    <h2>KSH 5000</h2>
                                 </div>
-                                <a href="javascript:void(0)" class="add-cart">Add to cart <span>></span></a>
+                                <a href="javascript:void(0)" class="add-cart">Buy Now <span>></span></a>
                             </div>
                             
                         </div>
@@ -148,41 +145,22 @@
                             <img src="./images/products/feather-hat.jpg" alt="kimono" />
                         </div>
                         <div class="card-content">
-                            <span class="small-title">jackets</span>
                             <div class="row">
-                                <div class="col-12 col-md-8 title">
+                                <div class="col-12 title">
                                     <h2>Feathered Hat</h2>
                                 </div>
-                                <div class="col-12 col-md-4 price">
-                                    <h2>$50</h2>
+                                <div class="col-12 price">
+                                    <h2>KSH 5000</h2>
                                 </div>
-                                <a href="javascript:void(0)" class="add-cart">Add to cart <span>></span></a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image-holder">
-                            <img src="./images/products/kimono.jpg" alt="kimono" />
-                        </div>
-                        <div class="card-content">
-                            <span class="small-title">APPAREL</span>
-                            <div class="row">
-                                <div class="col-12 col-md-8 title">
-                                    <h2>KIMONO SHIRT</h2>
-                                </div>
-                                <div class="col-12 col-md-4 price">
-                                    <h2>$50</h2>
-                                </div>
-                                <a href="javascript:void(0)" class="add-cart">Add to cart <span>></span></a>
+                                <a href="javascript:void(0)" class="add-cart">Buy Now <span>></span></a>
                             </div>
                             
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 p-0">
-                <a href="javascript:void(0)" class="view-all-btn">View All</a>
+            <div class="col-12 p-0 text-end mt-3">
+                <a href="javascript:void(0)" class="add-cart">View All<span>></span></a>
             </div>
         </div>
     </div>
@@ -228,6 +206,21 @@
 
  </footer>
 
+ <!-- Modal -->
+<div class="modal fade" id="appstore" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="text-black">
+                <h2>Own the <span>World</span> with the M-PESA virtual card</h2>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- jQuery -->
 <script src="js/jquery.min.js" type="text/Javascript"></script>

@@ -336,7 +336,8 @@ h1 span, h2 span{
     font-size: 50px;
 }
 .video-holder:hover .video-btn{
-	color: #2CB349;
+	color: #000000;
+	cursor: pointer;
 }
 .popular{
 	padding: 5rem 0;
@@ -381,15 +382,17 @@ h1 span, h2 span{
 	font-weight: 800;
     color: #626262;
     line-height: 33px;
-    font-size: 35px;
+	font-size: 26px;
     text-transform: uppercase;
+	letter-spacing: 1px;
 }
 .price{
-	color: #2CB349;
-	text-align: right;
+	color: #BFBFBF
 }
 .price h2{
-	font-size: 38px;
+    font-size: 22px;
+    margin: 5px 0 0;
+    letter-spacing: 1px;
 }
 .small-title {
     font-family: 'futuramedium';
@@ -405,8 +408,8 @@ h1 span, h2 span{
 	display: block;
     font-family: 'futuramedium';
     text-decoration: none;
-    margin-top: 2.5rem;
-    color: #1295F4;
+    margin-top: 1rem;
+    color: #52b44a;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -560,4 +563,47 @@ footer::before{
 @media screen and (max-width:320px){
 }
 
-
+/* joycss */
+.accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid grey !important;
+    border-radius: 7px !important;
+    overflow: hidden;
+	background: transparent;
+}
+.accordion-item .collapsed {
+    font-weight: 500;
+    font-family: 'futuramedium';
+    color: #626262;
+    font-size: 15px;
+    letter-spacing: 1px;
+	box-shadow: none;
+	background: transparent;
+}
+.accordion-button:not(.collapsed) {
+    background: transparent;
+    color: #000000;
+	box-shadow: none;
+}
+.accordion-button{
+	padding: 10px 20px;
+	outline: none;
+}
+.accordion-body {
+    padding: 1rem 1.25rem;
+    font-family: 'futuramedium';
+    font-size: 16px;
+    color: #626262;
+}
+.accordion-button::after{
+	background-size: 1rem;
+}
+/* end of joycss */
+.bg-black{
+	background: #1B1B1B;
+}
+p{
+	font-family: 'futuramedium';
+	margin-bottom: 1rem;
+	font-size: 16px;
+}
