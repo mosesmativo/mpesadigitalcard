@@ -661,6 +661,98 @@ footer::before{
 @media screen and (max-width:630px){
 }
 @media screen and (max-width:600px){
+	.card{
+		width: 85%;
+		margin:auto;
+	}
+	.text-end{
+		text-align: center !important;
+	}
+	.grey-title h2{
+		font-size: 20px;
+		line-height: 30px;
+		width: 90%;
+		margin: auto;
+	}
+	.title h2{
+		font-size: 18px;
+	}
+	.step-title h2{
+		font-size: 20px;
+	}
+	.step-title img{
+		height:29px !important;
+	}
+	.steps-container{
+		width: 90%;
+		margin: auto;
+		padding: 10px 0 0 0 !important;
+	}
+	.steps{
+		padding-top: 0 !important;
+	}
+	.steps-content p{
+		width: 100%;
+	}
+	.most-popular{
+		margin-top: 0 !important;
+	}
+	.banner-content h1 {
+		font-size: 26px;
+		line-height: 38px;
+		width: 70%;
+	}
+	.btn-green{
+		padding: 5px 25px;
+		font-size: 13px;
+	}
+	.main-banner{
+		background-position: -70vw;
+	}
+	.footer-text h2 {
+		font-size: 28px;
+		margin-bottom: 1rem;
+	}
+	.footer-text{
+		padding-top:0 !important;
+	}
+	.footer-last{
+		margin: 2rem 0;
+	}
+	.social-icons {
+		border-top: 2px solid #fff;
+		padding-top: 1rem;
+	}
+	.footer-last{
+		border-top: 0;
+		padding-top: 0;
+	}
+	footer .title{
+		font-size: 16px;
+		margin-right: 1rem;
+	}
+	.footer-last ul li i{
+		font-size: 20px;
+		padding: 0 11px;
+	}
+	footer::before{
+		background: linear-gradient(0deg, rgb(0 0 0 / 100%) 0%, rgba(219,219,219,0) 100%) !important;
+	}
+	footer{
+		min-height:auto !important;
+		background-position: -55vw;
+	}
+	.footer-urls {
+		margin-top: 2rem;
+	}
+	.footer-urls ul li a{
+		font-size: 12px;
+		padding: 0 15px 15px;
+	}
+	.add-cart{
+		letter-spacing: 2px;
+		font-size: 12px;
+	}
 }
 @media screen and (max-width:575px){
 }
@@ -669,6 +761,16 @@ footer::before{
 @media screen and (max-width:390px){
 }
 @media screen and (max-width:320px){
+}
+.owl-theme .owl-dots .owl-dot{
+	background: transparent;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background: #2CB349;
+}
+.owl-theme .owl-dots .owl-dot span{
+	width: 20px;
+    height: 10px;
 }
 
 /* joycss */
@@ -756,3 +858,5 @@ p{
 .text-white .banner-content h1, .text-white .banner-content p,.text-white .scroll{
 	color: #fff;
 }
+
+
