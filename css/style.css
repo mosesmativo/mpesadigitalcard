@@ -707,7 +707,8 @@ footer::before{
 		font-size: 13px;
 	}
 	.main-banner{
-		background-position: -70vw;
+		background-position: -72vw;
+		padding-left: 1rem;
 	}
 	.footer-text h2 {
 		font-size: 28px;
@@ -752,6 +753,42 @@ footer::before{
 	.add-cart{
 		letter-spacing: 2px;
 		font-size: 12px;
+	}
+	.about-content {
+		padding-top: 0 !important;
+		text-align: left !important;
+	}
+	p{
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.video-btn{
+		right: 0 !important;
+		left: 0 !important;
+		top: 0 !important;
+		bottom: 0 !important;
+		margin: auto;
+		font-size: 14px;
+	}
+	.content-area {
+		padding: 0 2rem;
+	}
+	.video-caption {
+		padding: 0 !important;
+		margin-bottom: 1rem;
+	}
+	.video-inside {
+		margin-bottom: 0 !important;
+	}
+	.grey-title {
+		margin-bottom: 1rem;
+	}
+	.faq-holder {
+		padding: 1rem 2rem;
+	}
+	.scroll{
+		margin: 1rem 0 0;
+		text-align: center;
 	}
 }
 @media screen and (max-width:575px){
