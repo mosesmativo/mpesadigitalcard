@@ -200,6 +200,101 @@ h1 span, h2 span{
 	text-transform: uppercase;
 }
 
+/* ---------------------------------------------------
+    HOME PAGE
+----------------------------------------------------- */
+/** Header Styles **/
+.header-area {
+	position:relative;
+	z-index: 10;
+	width: 100%;
+	-webkit-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	transition-duration: 500ms;
+}
+.header-area.scrollheader.is-sticky {
+    background: #FFF;
+    box-shadow: 0 1px 0 0 rgb(0 0 0 / 4%);
+}
+.classy-nav-container {
+	background-color: transparent;
+	padding: 0;
+}
+.classy-nav-container .classy-navbar {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    padding: 5px 0;
+    height: auto;
+}
+ @media only screen and (max-width: 767px) {
+ .classy-nav-container .classy-navbar .nav-brand {
+ margin-right: 15px;
+}
+}
+.nav-brand.mainlogo {
+    padding: 0 10px;
+    margin: 0;
+}
+/*.nav-brand.mainlogo img{
+	width: 100%;
+}*/
+.classy-nav-container .classy-navbar .classynav ul li{
+	position: relative;
+}
+.classy-nav-container .classy-navbar .classynav ul li a {
+	padding: 0 18px;
+    font-size: 14px;
+    color:#C4C4C4;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Futura-Bold';
+    letter-spacing: 1px;
+}
+ @media only screen and (min-width: 992px) and (max-width: 1199px) {
+ .classy-nav-container .classy-navbar .classynav ul li a {
+ font-size: 14px;
+}
+}
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+ .classy-nav-container .classy-navbar .classynav ul li a {
+ font-size: 14px;
+}
+}
+ @media only screen and (max-width: 767px) {
+ .classy-nav-container .classy-navbar .classynav ul li a {
+ font-size: 14px;
+}
+}
+.classy-nav-container .classy-navbar .classynav ul li a:focus, 
+.classy-nav-container .classy-navbar .classynav ul li a:hover {
+	color:#2CB34A;
+}
+.classynav ul li.active a {
+	position: relative;
+	z-index: 1;
+	color:#2CB34A !important;
+}
+.classynav ul li.active a::before {
+    width: 80%;
+    height: 2px;
+    background-color: #2cb34a;
+    position: absolute;
+    bottom: -5px;
+    left: 10%;
+    z-index: 1;
+    content: '';
+}
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+.classynav ul li.active a::before {
+ display: none;
+}
+}
+ @media only screen and (max-width: 767px) {
+.classynav ul li.active a::before {
+ display: none;
+}
+}
 
 /* Main Banner */
 .banner-content h1{
