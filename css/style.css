@@ -607,3 +607,23 @@ p{
 	margin-bottom: 1rem;
 	font-size: 16px;
 }
+.app-store{
+	display: inline-block;
+	width: 49%;
+}
+.app-store-holder .modal-content{
+	width: 80%;
+    margin: 11rem auto 0;
+}
+.app-store-holder .modal-body h2{
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	font-size: 40px;
+}
+.app-store-holder .modal-header{
+	padding: 15px 10px 0 0;
+    border-bottom: 0;
+}
+.modal-header .btn-close{
+	outline: none !important;
+}

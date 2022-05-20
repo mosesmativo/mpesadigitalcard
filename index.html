@@ -171,7 +171,7 @@
          <div class="row">
              <div class="col-12 col-md-4 text-white footer-text">
                  <h2><span>conquer</span> the world today</h2>
-                 <button class="btn btn-green">Activate card</button>
+                 <button class="btn btn-green" data-bs-toggle="modal" data-bs-target="#appstore">Activate card</button>
              </div>
              <div class="col-12 footer-last">
                  <div class="row">
@@ -207,7 +207,7 @@
  </footer>
 
  <!-- Modal -->
-<div class="modal fade" id="appstore" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade app-store-holder" id="appstore" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -215,7 +215,13 @@
         </div>
         <div class="modal-body">
             <div class="text-black">
-                <h2>Own the <span>World</span> with the M-PESA virtual card</h2>
+                <h2>Activate <span>Card</span> now on</h2>
+                <a href="javascript:void(0)" class="app-store">
+                    <img src="./images/icons/app-store.png" alt="App Store" >
+                </a>
+                <a href="javascript:void(0)" class="app-store">
+                    <img src="./images/icons/google-play.png" alt="App Store" >
+                </a>
             </div>
         </div>
       </div>
