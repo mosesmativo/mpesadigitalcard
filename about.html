@@ -93,7 +93,7 @@
               <div class="col-12 steps-video mt-5 pb-5">
                 <div class="video-holder">
                     <img src="./images/about-video.jpg" alt="video section">
-                    <button class="btn video-btn">
+                    <button class="btn video-btn"  data-bs-toggle="modal" data-bs-target="#about-video">
                         <span>
                             <i class="far fa-play-circle"></i>
                         </span>
@@ -115,7 +115,7 @@
         <div class="col-12 steps-video col-md-7 mb-5 video-inside">
           <div class="video-holder">
               <img src="./images/video-inside.jpg" alt="video section">
-              <button class="btn video-btn">
+              <button class="btn video-btn" data-bs-toggle="modal" data-bs-target="#about-video">
                   <span>
                       <i class="far fa-play-circle"></i>
                   </span>
@@ -255,6 +255,22 @@
      </div>
 
  </footer>
+
+  <!-- Modal -->
+<div class="modal fade video-modal video-holder" id="about-video" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="video-holder">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Om0rYw6qzb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- jQuery -->
