@@ -353,6 +353,7 @@ h1 span, h2 span{
 	background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    min-height: 90vh;
 }
 @media screen and (max-width:1399px){
 	.banner-content h1{
@@ -625,6 +626,79 @@ footer::before{
 .footer-last ul li a:hover i{
 	color:#fff;
 }
+.banner-content.productbanner{
+    padding:60px 0;
+}
+.btn.video-btn.btn-product-video {
+    position: relative;
+    left: 0;
+    top: 0;
+    color: #2CB349;
+    display: flex;
+    align-items: center;
+}
+.btn-product-video span {
+    display: inline-block;
+    font-size: 45px;
+    margin-left: 15px;
+}
+.section-newsletter{
+	padding: 60px 0;
+}
+.newtextinfo h2 {
+    color: #B9B9B9;
+    text-transform: capitalize;
+    font-size: 34px;
+    line-height: 45px;
+    margin-bottom: 15px;
+}
+.newtextinfo p {
+    font-family: 'Futura-bold';
+    width: 86%;
+    font-size: 14px;
+}
+.subscribeblock {
+    border-radius: 10px;
+    background: transparent;
+    padding: 20px 50px;
+    border: 1px solid #B9B9B9;
+}
+.subscribe-text{
+    margin-bottom: 20px;
+}
+.subscribe-text h2 {
+    color: #B9B9B9;
+    text-transform: capitalize;
+    font-size: 34px;
+    margin-bottom:10px;
+}
+.subscribe-text p {
+	margin-top:10px;
+    font-size: 14px;
+}
+.subscribe-form  .form-control{
+	height:55px;
+	padding:15px;
+}
+.subscribe-form .btn.btn-primary{
+	color: #FFF;
+	border: 1px solid #2CB349;
+	padding:10px 20px;
+	text-transform: capitalize;
+	border-radius:5px;
+	display: inline-block;
+	margin-top: 15px;
+	background: #2CB349;
+	font-family: 'Futura-bold';
+	width: 100%;
+}
+.subscribe-form .btn.btn-primary:hover{
+	border: 1px solid #2CB349;
+	color: #2CB349;
+	background: transparent;
+}
+
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
@@ -661,138 +735,6 @@ footer::before{
 @media screen and (max-width:630px){
 }
 @media screen and (max-width:600px){
-	.card{
-		width: 85%;
-		margin:auto;
-	}
-	.text-end{
-		text-align: center !important;
-	}
-	.grey-title h2{
-		font-size: 20px;
-		line-height: 30px;
-		width: 90%;
-		margin: auto;
-	}
-	.title h2{
-		font-size: 18px;
-	}
-	.step-title h2{
-		font-size: 20px;
-	}
-	.step-title img{
-		height:29px !important;
-	}
-	.steps-container{
-		width: 90%;
-		margin: auto;
-		padding: 10px 0 0 0 !important;
-	}
-	.steps{
-		padding-top: 0 !important;
-	}
-	.steps-content p{
-		width: 100%;
-	}
-	.most-popular{
-		margin-top: 0 !important;
-	}
-	.banner-content h1 {
-		font-size: 26px;
-		line-height: 38px;
-		width: 70%;
-	}
-	.btn-green{
-		padding: 5px 25px;
-		font-size: 13px;
-	}
-	.main-banner{
-		background-position: -72vw;
-		padding-left: 1rem;
-	}
-	.footer-text h2 {
-		font-size: 28px;
-		margin-bottom: 1rem;
-	}
-	.footer-text{
-		padding-top:0 !important;
-	}
-	.footer-last{
-		margin: 2rem 0;
-	}
-	.social-icons {
-		border-top: 2px solid #fff;
-		padding-top: 1rem;
-	}
-	.footer-last{
-		border-top: 0;
-		padding-top: 0;
-	}
-	footer .title{
-		font-size: 16px;
-		margin-right: 1rem;
-	}
-	.footer-last ul li i{
-		font-size: 20px;
-		padding: 0 11px;
-	}
-	footer::before{
-		background: linear-gradient(0deg, rgb(0 0 0 / 100%) 0%, rgba(219,219,219,0) 100%) !important;
-	}
-	footer{
-		min-height:auto !important;
-		background-position: -55vw;
-	}
-	.footer-urls {
-		margin-top: 2rem;
-	}
-	.footer-urls ul li a{
-		font-size: 12px;
-		padding: 0 15px 15px;
-	}
-	.add-cart{
-		letter-spacing: 2px;
-		font-size: 12px;
-	}
-	.about-content {
-		padding-top: 0 !important;
-		text-align: left !important;
-	}
-	p{
-		font-size: 14px;
-		line-height: 25px;
-	}
-	.video-btn{
-		right: 0 !important;
-		left: 0 !important;
-		top: 0 !important;
-		bottom: 0 !important;
-		margin: auto;
-		font-size: 14px;
-	}
-	.content-area {
-		padding: 0 2rem;
-	}
-	.video-caption {
-		padding: 0 !important;
-		margin-bottom: 1rem;
-	}
-	.video-inside {
-		margin-bottom: 0 !important;
-	}
-	.grey-title {
-		margin-bottom: 1rem;
-	}
-	.faq-holder {
-		padding: 1rem 2rem;
-	}
-	.scroll{
-		margin: 1rem 0 0;
-		text-align: center;
-	}
-	.accordion-body{
-		font-size:14px !important;
-	}
 }
 @media screen and (max-width:575px){
 }
@@ -801,16 +743,6 @@ footer::before{
 @media screen and (max-width:390px){
 }
 @media screen and (max-width:320px){
-}
-.owl-theme .owl-dots .owl-dot{
-	background: transparent;
-}
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
-	background: #2CB349;
-}
-.owl-theme .owl-dots .owl-dot span{
-	width: 20px;
-    height: 10px;
 }
 
 /* joycss */
@@ -898,5 +830,3 @@ p{
 .text-white .banner-content h1, .text-white .banner-content p,.text-white .scroll{
 	color: #fff;
 }
-
-
